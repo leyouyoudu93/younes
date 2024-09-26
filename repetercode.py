@@ -8,3 +8,10 @@ print(rep('c',2))
     if n>0 and m>0:
         return c*n + d*m
 print(rep('c','m', 8,9))"""
+
+
+
+
+my_str = "younes"
+reversed_str = "".join(reversed(my_str))
+print(reversed_str)
