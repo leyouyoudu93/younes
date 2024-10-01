@@ -1,3 +1,4 @@
+
 def rep(c, n):
     if n>0:
        return c*n
@@ -23,3 +24,12 @@ def afficher_numerote(ch,n):
         for i in range(1,n+1):
             print(f"{i}. {ch}")
 afficher_numerote("ch", 5)
+
+
+
+def afficher_caractere_repetes(c,n):
+    if n>0:
+        for i in range(1, n+1):
+            print(c*1)
+
+afficher_caractere_repetes("*",5)
