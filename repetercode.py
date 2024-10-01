@@ -33,3 +33,14 @@ def afficher_caractere_repetes(c,n):
             print(c*1)
 
 afficher_caractere_repetes("*",5)
+
+
+
+
+def sous_chaine(ch1, ch2):
+    if  ch1 in ch2 or ch2 in ch1:
+        return True
+    else:
+        return False
+
+print(sous_chaine("you","younes"))
