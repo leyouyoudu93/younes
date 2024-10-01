@@ -15,3 +15,11 @@ print(rep('c','m', 8,9))"""
 my_str = "younes"
 reversed_str = "".join(reversed(my_str))
 print(reversed_str)
+
+
+
+def afficher_numerote(ch,n):
+    if n>0:
+        for i in range(1,n+1):
+            print(f"{i}. {ch}")
+afficher_numerote("ch", 5)
