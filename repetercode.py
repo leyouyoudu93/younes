@@ -44,3 +44,9 @@ def sous_chaine(ch1, ch2):
         return False
 
 print(sous_chaine("you","younes"))
+
+
+
+def triple_six(ch):
+    return"666" in ch
+print(triple_six("ruivh666inàv$çu"))
