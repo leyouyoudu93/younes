@@ -65,3 +65,14 @@ def triple_six_exact(ch):
         return True 
     return False
 print(triple_six_exact('66666'))
+
+
+
+
+def sansespace(ch):
+    mot=""
+    for i in range(len(ch)):
+        if ch[i] !=" ":
+            mot=mot+ch[i]
+    return mot 
+print(sansespace(" mac v "))
