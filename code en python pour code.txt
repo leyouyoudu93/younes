@@ -13,7 +13,8 @@ def mot_de_passe(code):
     if not re.search(r"[a-z]", code):
         return "le code doit avoir une minuscule"
     
-    """if not re.search()"""
+    if not re.search(r"[&~#{}'()-^=@+]"):
+        return "le code doit avoir un caractères"
     
     
     return "le code est correct"
