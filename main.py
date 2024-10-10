@@ -42,3 +42,14 @@ def carre_compr(n):
     l = [k*2 for k in range(1,n+1)]
     return l 
 print(carre_compr(100))
+
+
+
+liste_1=[x for x in range (1,20,2)]
+print(liste_1) 
+liste_2=[x**2 for x in range(11)]
+print(liste_2)
+liste_3=[2**x for x in range(11)]
+print(liste_3)    
+liste_4=[x for x in range(3,52) if x%3==0] 
+print(liste_4)
