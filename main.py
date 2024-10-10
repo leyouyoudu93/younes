@@ -35,3 +35,10 @@ def carre(n):
         carre.append(k**2)
     return carre
 print(carre(5))
+
+
+
+def carre_compr(n):
+    l = [k*2 for k in range(1,n+1)]
+    return l 
+print(carre_compr(100))
