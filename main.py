@@ -25,3 +25,13 @@ def est_pair(n):
     else:
         return False
 print(est_pair(2))
+
+
+
+
+def carre(n):
+    carre = []
+    for k in range(1  ,n+1):
+        carre.append(k**2)
+    return carre
+print(carre(5))
