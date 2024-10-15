@@ -1,0 +1,21 @@
+def test_brute_force():
+    code_reference = "youXD93@"
+
+    for essai in range(1, 6):
+        code = input(f"Essai {essai}, entrez un code : ")
+        if code == code_reference:
+            print(f"Vous avez entré le bon code : {code}")
+            return
+
+    print("veuilez resseyer.")
+
+    
+    
+    try:
+        with open("Users\e624\Desktop\py\yns.txt", "w") as fichier:
+            contenu = fichier.read()
+            print(contenu)
+    except FileNotFoundError:
+        print("Le fichier 'yns.txt' n'a pas été trouvé.")
+    
+test_brute_force()
